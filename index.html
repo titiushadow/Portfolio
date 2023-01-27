@@ -7,6 +7,7 @@
     <title>Portifólio - Mesaque</title>
     <link rel="icon" href="/images/code (2).svg">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -163,7 +164,7 @@
                 <input class="inputs-contact" type="text">
 
                 <label class="label-contact" for="Telefone">Telefone</label>
-                <input class="inputs-contact" type="text">
+                <input class="inputs-contact" type="text" maxlength="12" OnKeyPress="format('##-####-####', this)">
 
                 <label class="label-contact" for="Mensagem">Mensagem</label>
                 <textarea class="inputs-contact" name="" id="" cols="30" rows="10"></textarea>
