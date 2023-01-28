@@ -172,6 +172,21 @@ svg {
     margin-top: 0.8rem;
 }
 
+.img-divider-portifolio {
+    width: 4rem;
+    margin-top: 0.8rem;
+    animation: flutuante 6s ease-in-out infinite;
+}
+
+@keyframes flutuante {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
 .custom-line {
     margin: 1rem;
     background-color: white;
