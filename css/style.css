@@ -121,6 +121,44 @@ html {
     margin-bottom: 3rem;
 }
 
+.btn {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 180px;
+    height: 59px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+  
+svg {
+    display: flex;
+    position: absolute;
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+  
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+  
+.btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+
+.btn h1 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+}
+
 .custom-divider {
     margin: 1.25rem 0 1.5rem;
     width: 100%;
@@ -278,11 +316,12 @@ button:hover {
     border-radius: 10px;
     cursor: pointer;
     text-align: center;
+    transition: 0.5s ease-out;
 }
 
 .categoryCard-sobre:hover {
     transform: scale(1.1);
-    transition: 0.8s;
+    transition: 0.8s ease-out;
 }
 
 .mainCardImg-about {
@@ -349,11 +388,7 @@ button:hover {
 .label-contact {
     width: 100%;
     font-size: 1.5rem;
-    color: #6c757d;
-}
-
-.label-contact:focus-within {
-    color: #8d3dc8;
+    color: #404040;
 }
 
 .inputs-contact {
