@@ -5,7 +5,7 @@ function format(mascara, documento){
   var texto = mascara.substring(i)
   
   if (texto.substring(0,1) != saida){
-            documento.value += texto.substring(0,1);
+    documento.value += texto.substring(0,1);
   }
 }
 
@@ -29,7 +29,6 @@ function send() {
     text: 'Obrigado por entrar em contato.'
   })
 }
-
 
 // Modal portifólio
 function nubank() {
