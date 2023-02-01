@@ -9,9 +9,6 @@ function format(mascara, documento){
   }
 }
 
-
-var element = document.getElementById('element');
-
 // Botão enviar
 function send() {
   const Toast = Swal.mixin({
