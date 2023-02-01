@@ -8,6 +8,7 @@
     <link rel="icon" href="/images/code (2).svg">
     <link rel="stylesheet" href="/css/style.css">
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -189,7 +190,7 @@
 
                 <label class="label-contact" for="Mensagem">Mensagem</label>
                 <textarea class="inputs-contact" cols="30" rows="10"></textarea>
-                <button class="send">
+                <button class="send" onclick="send()">
                     Enviar Mensagem
                 </button>
             </div>
@@ -262,8 +263,9 @@
                         </ul>
                     </div>
                 </div>
-                <p class="p-footer">Copyright © 2023 Mesaque</p>
+                <p class="p-footer">Criado com &#10084; por Mesaque • 2023</p>
             </div>
+
         </footer>
     </div>
 </body>
