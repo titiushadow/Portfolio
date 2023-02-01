@@ -8,7 +8,8 @@
     <link rel="icon" href="/images/code (2).svg">
     <link rel="stylesheet" href="/css/style.css">
     <script src="js/script.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/t4t5/sweetalert@32bd141c/dist/sweetalert.css">
 </head>
 <body>
     <div class="container">
@@ -77,37 +78,37 @@
         <section class="gridContainer">
             <div  class="mainContent">
                 <!-- Clone - Login Nubank -->
-                <div class="categoryCard">
+                <div onclick="nubank()" class="categoryCard">
                     <img class="mainCardImg" src="/images/nubank.jpg" alt="mainCardImg">
                     <p class="mainCategoryCardTitle">Clone - Login Nubank</p>
                 </div>     
 
                 <!-- Clone - Login Prime Video -->
-                <div class="categoryCard">
+                <div onclick="prime()" class="categoryCard">
                     <img class="mainCardImg" src="/images/Prime-Video.png" alt="mainCardImg">
                     <p class="mainCategoryCardTitle">Clone - Login Prime Video</p>
                 </div>  
 
                 <!-- Clone - Login Facebook -->
-                <div class="categoryCard">
+                <div onclick="facebook()" class="categoryCard">
                     <img class="mainCardImg" src="/images/facebook.jpg" alt="mainCardImg">
                     <p class="mainCategoryCardTitle">Clone - Login Facebook</p>
                 </div>  
 
                 <!-- Calcular IMC -->
-                <div class="categoryCard">
+                <div onclick="imc()" class="categoryCard">
                     <img class="mainCardImg" src="/images/imc.png" alt="mainCardImg">
                     <p class="mainCategoryCardTitle">Calcular IMC</p>
                 </div>  
 
                 <!-- Efeito Parallax -->
-                <div class="categoryCard">
+                <div onclick="parallax()" class="categoryCard">
                     <img class="mainCardImg" src="/images/parallax.png" alt="mainCardImg">
                     <p class="mainCategoryCardTitle">Efeito Parallax</p>
                 </div>  
 
                 <!-- Make Your Burger -->
-                <div class="categoryCard">
+                <div onclick="burger()" class="categoryCard">
                     <img class="mainCardImg" src="/images/Burger.png" alt="mainCardImg">
                     <p class="mainCategoryCardTitle">Make Your Burger</p>
                 </div>  
