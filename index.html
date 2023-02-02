@@ -177,24 +177,26 @@
             </div>
             <div class="custom-line-portifolio"></div>
         </div>
-        <section class="gridContainer-contact">
-            <div class="mainContent-contact">
-                <label class="label-contact" for="Full-name">Nome Completo</label>
-                <input class="inputs-contact" type="text">
+            <form class="gridContainer-contact" action="https://formsubmit.co/mesaque1212@gmail.com" method="POST">
+                <div class="mainContent-contact">
+                    <label class="label-contact" for="Full-name">Nome Completo</label>
+                    <input class="inputs-contact" name="Nome" id="Full-name" type="text">
+    
+                    <label class="label-contact" for="E-mail">E-mail</label>
+                    <input class="inputs-contact"  name="E-mail" id="email" type="text">
+    
+                    <label class="label-contact" for="Telefone">Telefone</label>
+                    <input class="inputs-contact" name="Telefone" id="Telefone" type="text" maxlength="12" OnKeyPress="format('##-####-####', this)">
+    
+                    <label class="label-contact" for="Mensagem">Mensagem</label>
+                    <textarea class="inputs-contact" name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea>
+                    <button class="send" onclick="send()">
+                        Enviar Mensagem
+                    </button>
 
-                <label class="label-contact" for="E-mail">E-mail</label>
-                <input class="inputs-contact" type="text">
-
-                <label class="label-contact" for="Telefone">Telefone</label>
-                <input class="inputs-contact" type="text" maxlength="12" OnKeyPress="format('##-####-####', this)">
-
-                <label class="label-contact" for="Mensagem">Mensagem</label>
-                <textarea class="inputs-contact" cols="30" rows="10"></textarea>
-                <button class="send" onclick="send()">
-                    Enviar Mensagem
-                </button>
-            </div>
-        </section>
+                    <input type="hidden" name="_captcha" value="false">
+                </div>
+            </form>
         
         <!-- FOOTER -->
         <footer class="footer">
