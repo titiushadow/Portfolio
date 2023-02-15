@@ -1,8 +1,8 @@
 // Mascara
 function format(mascara, documento){
-  var i = documento.value.length;
-  var saida = mascara.substring(0,1);
-  var texto = mascara.substring(i)
+  const i = documento.value.length;
+  const saida = mascara.substring(0,1);
+  const texto = mascara.substring(i)
   
   if (texto.substring(0,1) != saida){
     documento.value += texto.substring(0,1);
@@ -23,6 +23,7 @@ function nubank() {
   });
 }
 
+// Modal Prime Video
 function prime() {
   Swal.fire({
     title: "Prime Video",
@@ -36,6 +37,7 @@ function prime() {
   })
 }
 
+// Modal Facebook
 function facebook() {
   Swal.fire({
     title: "Facebook",
@@ -49,6 +51,7 @@ function facebook() {
   })
 }
 
+// Modal IMC
 function imc() {
   Swal.fire({
     title: "IMC",
@@ -62,6 +65,7 @@ function imc() {
   })
 }
 
+// Modal Parallax
 function parallax() {
   Swal.fire({
     title: "Efeito Parallax",
@@ -75,6 +79,7 @@ function parallax() {
   })
 }
 
+// Make Your Burger
 function burger() {
   Swal.fire({
     title: "Make Your Burger",
