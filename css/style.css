@@ -64,12 +64,12 @@ html {
 
 @keyframes blink {
     from {
-      border-color: black;
+    border-color: black;
     }
     to {
-      border-color: transparent;
+    border-color: transparent;
     }
-  }
+}
 
 .header-description {
     font-size: 1.5rem;
@@ -133,7 +133,7 @@ html {
     outline: none;
     transition: 1s ease-in-out;
 }
-  
+
 svg {
     display: flex;
     position: absolute;
