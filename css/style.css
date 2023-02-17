@@ -96,8 +96,6 @@ html {
 
 .headerBtnGroup {
     display: flex;
-    gap: 15px;
-    margin-left: 18rem;
     align-items: center;
 }
 
@@ -132,6 +130,7 @@ html {
     border: 1px solid #91C9FF;
     outline: none;
     transition: 1s ease-in-out;
+    margin-bottom: 1.5rem;
 }
 
 svg {
@@ -517,7 +516,7 @@ button:hover {
 }
 
 @media(max-width: 630px) {
-    .gridContainer{
+    .gridContainer .header-container{
         grid-template-areas: 
         "mainContent";
         display: flex;
