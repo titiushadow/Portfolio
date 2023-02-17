@@ -516,7 +516,7 @@ button:hover {
 }
 
 @media(max-width: 630px) {
-    .gridContainer .header-container{
+    .gridContainer{
         grid-template-areas: 
         "mainContent";
         display: flex;
@@ -526,7 +526,7 @@ button:hover {
     }
 }
 
-@media(max-width: 463px) {
+@media(max-width: 768px) {
     .header {
         justify-content: center;
     }
@@ -535,5 +535,11 @@ button:hover {
     }
     .footer {
         justify-content: center;
+    }
+    .btn-header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 }
