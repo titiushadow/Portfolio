@@ -417,6 +417,7 @@ button:hover {
     border-bottom-style: solid;
     margin-bottom: 3rem;
     transition: 0.15s linear;
+    resize: vertical;
 }
 
 .inputs-contact:focus {
