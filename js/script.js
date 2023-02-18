@@ -16,7 +16,7 @@ function nubank() {
     html: '<p>Projeto foi desenvolvido para praticar HTML5 e CSS3, o projeto possui algumas mudanças na tela de login.</p>' +
     '<a class="color" href="https://master-nubank_clone-titiushadow.bohr.io/" target="_blank">Ver projeto</a>',
     imageUrl: "https://static.poder360.com.br/2022/09/logo-nubank-848x477.jpg",
-    imageWidth: 450,
+    imageWidth: 350,
     imageHeight: 270,
     imageAlt: 'Nubank',
     confirmButtonColor: '#3085d6',
@@ -31,7 +31,7 @@ function prime() {
     html: '<p>Projeto foi desenvolvido para praticar HTML5 e CSS3, o projeto possui algumas mudanças na tela de login.</p>' +
     '<a class="color" href="https://master-prime_video-titiushadow.bohr.io/" target="_blank">Ver projeto</a>',
     imageUrl: "https://m.media-amazon.com/images/G/01/primevideo/seo/primevideo-seo-logo.png",
-    imageWidth: 450,
+    imageWidth: 350,
     imageHeight: 270,
     imageAlt: 'Prime-video',
     confirmButtonColor: '#3085d6',
@@ -46,7 +46,7 @@ function facebook() {
     html: '<p>Projeto foi desenvolvido para praticar HTML5 e CSS3, o projeto possui algumas mudanças na tela de login.</p>' +
     '<a class="color" href="https://master-facebook_clone-titiushadow.bohr.io/" target="_blank">Ver projeto</a>',
     imageUrl: "https://webcompany.com.br/wp-content/uploads/2021/07/facebook-no-brasil.jpg",
-    imageWidth: 450,
+    imageWidth: 350,
     imageHeight: 270,
     imageAlt: 'Facebook',
     confirmButtonColor: '#3085d6',
@@ -61,7 +61,7 @@ function imc() {
     html: '<p>Projeto foi desenvolvido para praticar HTML5 e CSS3, o projeto possui algumas mudanças na tela de login.</p>' +
     '<a class="color" href="https://master-calcular-imc-titiushadow.bohr.io/" target="_blank">Ver projeto</a>',
     imageUrl: "https://user-images.githubusercontent.com/63453751/197347971-0f064109-e070-4c27-8295-a918fb59df1c.png",
-    imageWidth: 450,
+    imageWidth: 350,
     imageHeight: 270,
     imageAlt: 'IMC',
     confirmButtonColor: '#3085d6',
@@ -76,7 +76,7 @@ function parallax() {
     html: '<p>Projeto foi desenvolvido para praticar HTML5 e CSS3, o projeto possui algumas mudanças na tela de login.</p>' +
     '<a class="color" href="https://master-parallax-titiushadow.bohr.io/" target="_blank">Ver projeto</a>',
     imageUrl: "https://www.10wallpaper.com/wallpaper/1366x768/1706/House_mountains_snow_lake-High_Quality_Wallpaper_1366x768.jpg",
-    imageWidth: 450,
+    imageWidth: 350,
     imageHeight: 270,
     imageAlt: 'Efeito Parallax',
     confirmButtonColor: '#3085d6',
@@ -91,7 +91,7 @@ function burger() {
     html: '<p>Projeto foi desenvolvido para praticar HTML5 e CSS3, o projeto possui algumas mudanças na tela de login.</p>' +
     '<a class="color" href="https://make_your_burger-titiushadow.bohr.io/" target="_blank">Ver projeto</a>',
     imageUrl: "https://user-images.githubusercontent.com/63453751/162729808-f568227c-41fb-4ad5-9841-840d535b26d2.png",
-    imageWidth: 450,
+    imageWidth: 350,
     imageHeight: 270,
     imageAlt: 'Make Your Burger',
     confirmButtonColor: '#3085d6',

@@ -511,7 +511,6 @@ button:hover {
 }
 
 .swal2-image {
-    object-fit: cover;
     border-radius: 10px;
 }
 
