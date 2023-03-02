@@ -158,6 +158,37 @@ svg {
     font-weight: 100;
 }
 
+/* Btn na section dos projetos */
+.btn-projetos{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 180px;
+    height: 59px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    margin-bottom: 1.5rem;
+}
+
+.btn-projetos:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+
+.btn-projetos:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn-projetos h1 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
 .custom-divider {
     margin: 1.25rem 0 1.5rem;
     width: 100%;
@@ -242,7 +273,7 @@ svg {
     grid-template-areas: "mainContent";
     padding: 20px;
     flex: 2 0 auto;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
 }
 
 .mainCardImg {
