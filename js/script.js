@@ -87,10 +87,10 @@ function parallax() {
 // Make Your Burger
 function burger() {
   Swal.fire({
-    title: "Make Your Burger",
-    html: '<p>Projeto foi desenvolvido para praticar HTML5 e CSS3, o projeto possui algumas mudanças na tela de login.</p>' +
-    '<a class="color" href="https://make_your_burger-titiushadow.bohr.io/" target="_blank">Ver projeto</a>',
-    imageUrl: "https://user-images.githubusercontent.com/63453751/162729808-f568227c-41fb-4ad5-9841-840d535b26d2.png",
+    title: "GreenBox",
+    html: '<p>Com o GreenBox, gerenciar suas finanças nunca foi tão fácil e intuitivo! Com uma interface eficaz, você pode acompanhar seus gastos em tempo real de maneira inteligente e segura.</p>' +
+    '<a class="color" href="https://greenbox.bohr.io/" target="_blank">Ver projeto</a>',
+    imageUrl: "https://s4.aconvert.com/convert/p3r68-cdx67/a412x-1rgsl.jpg",
     imageWidth: 350,
     imageHeight: 270,
     imageAlt: 'Make Your Burger',
