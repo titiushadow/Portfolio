@@ -1,14 +1,14 @@
 <template>
-  <div class="w-32 h-32 bg-blue-500">
-  </div>
+  <Main />
 </template>
 
 <script>
+import Main from "../src/Pages/Main.vue";
+
 export default {
-  
+ name: "HomePage", // Aqui deve ser uma string
+ components: {
+   Main
+ },
 }
 </script>
-
-<style lang="scss">
-  
-</style>
