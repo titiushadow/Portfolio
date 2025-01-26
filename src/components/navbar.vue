@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="p-4 fixed top-0 left-0 right-0 z-50">
+        <nav class="p-4 bg-black top-0 left-0 right-0 z-50">
             <div class="max-w-screen-xl mx-auto flex justify-between items-center">
                 <div class="text-white text-xl font-semibold">
                     Portfolio
